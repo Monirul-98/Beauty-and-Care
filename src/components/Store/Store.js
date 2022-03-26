@@ -17,7 +17,7 @@ const Store = () => {
       newCart = [...cart, product];
       setCart(newCart);
     } else {
-      alert("Sorry!You can't add more than 4 products");
+      alert("Sorry! You can't add more than 4 products");
     }
   };
   const removeAll = () => {

@@ -1,6 +1,6 @@
 # Beauty and Care
 
-[Beauty and Care](https://github.com/facebook/create-react-app).
+[Beauty and Care](https://beauty-and-care.netlify.app/).
 
 ## Available Scripts
 
