@@ -4,7 +4,7 @@
     "name": "Dove Men+ Care Deodorant",
     "price": 25,
     "ratings": 4,
-    "img": "..//images//pic-1.jpg",
+    "img": "./images/pic-1.jpg",
     "quantity": 0
   },
   {
@@ -12,7 +12,7 @@
     "name": "Dove Beauty Care Soap",
     "price": 25,
     "ratings": 4,
-    "img": "..//images//pic-2.jpg",
+    "img": "./images/pic-2.jpg",
     "quantity": 0
   },
   {
@@ -20,7 +20,7 @@
     "name": "CeraVe Moisturizing Cream",
     "price": 20,
     "ratings": 4,
-    "img": "..//images//pic-3.jpg",
+    "img": "./images/pic-3.jpg",
     "quantity": 0
   },
   {
@@ -28,7 +28,7 @@
     "name": "Listerine Total Care Mouthwash",
     "price": 42,
     "ratings": 4,
-    "img": "..//images//pic-4.jpg",
+    "img": "./images/pic-4.jpg",
     "quantity": 0
   },
   {
@@ -36,7 +36,7 @@
     "name": "Gillette SkinGuard Razors ",
     "price": 25,
     "ratings": 4,
-    "img": "..//images//pic-5.jpg",
+    "img": "./images/pic-5.jpg",
     "quantity": 0
   },
   {
@@ -44,7 +44,7 @@
     "name": "Gillette ProGlide Shield Razor",
     "price": 30,
     "ratings": 4,
-    "img": "..//images//pic-6.jpg",
+    "img": "./images/pic-6.jpg",
     "quantity": 0
   },
   {
@@ -52,7 +52,7 @@
     "name": "Philips All-in-One Trimmer",
     "price": 60,
     "ratings": 4,
-    "img": "..//images//pic-7.jpg",
+    "img": "./images/pic-7.jpg",
     "quantity": 0
   },
   {
@@ -60,7 +60,7 @@
     "name": "Colgate Toothpaste",
     "price": 10,
     "ratings": 4,
-    "img": "..//images//pic-8.jpg",
+    "img": "./images//pic-8.jpg",
     "quantity": 0
   },
   {
@@ -68,7 +68,7 @@
     "name": "AquaSonic Toothbrush",
     "price": 45,
     "ratings": 4,
-    "img": "..//images//pic-9.jpg",
+    "img": "./images/pic-9.jpg",
     "quantity": 0
   },
   {
@@ -76,7 +76,7 @@
     "name": "Neutrogena Face Moisturizer Gel",
     "price": 19,
     "ratings": 4,
-    "img": "..//images//pic-10.jpg",
+    "img": "./images/pic-10.jpg",
     "quantity": 0
   },
   {
@@ -84,7 +84,7 @@
     "name": "The Art of Shaving Lavender Shaving Cream for Men",
     "price": 30,
     "ratings": 4,
-    "img": "..//images//pic-11.jpg",
+    "img": "./images/pic-11.jpg",
     "quantity": 0
   },
   {
@@ -92,7 +92,7 @@
     "name": "Philips Norelco Shaver",
     "price": 50,
     "ratings": 4,
-    "img": "..//images//pic-12.jpg",
+    "img": "./images/pic-12.jpg",
     "quantity": 0
   }
 ]
