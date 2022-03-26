@@ -1,0 +1,5 @@
+.store-container {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
