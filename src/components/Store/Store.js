@@ -24,7 +24,12 @@ const Store = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart cart={cart}></Cart>
+        <h3>Order Summary</h3>
+        <div>
+          {cart.map((cartItem) => (
+            <Cart cartItem={cartItem}></Cart>
+          ))}
+        </div>
       </div>
     </div>
   );

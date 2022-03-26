@@ -1,17 +1,19 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRemove, faTrash } from "@fortawesome/free-solid-svg-icons";
 import "./Cart.css";
 
-const Cart = ({ cart }) => {
-  const productNames = [];
-  for (const product of cart) {
-    productNames.push(product.name);
-  }
+const Cart = ({ cartItem }) => {
+  const { name, img } = cartItem;
   return (
     <div className="cart">
-      <h3>Order Summary</h3>
       <div>
-        <h4>{productNames}</h4>
+        <img src={img} alt="" className="cart-img" />
+        <h6>{name}</h6>
       </div>
+      <a href="/remove" className="btn-icon">
+        <FontAwesomeIcon icon={faTrash}></FontAwesomeIcon>
+      </a>
     </div>
   );
 };
