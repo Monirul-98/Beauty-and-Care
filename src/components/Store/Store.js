@@ -12,9 +12,19 @@ const Store = () => {
       .then((data) => setItems(data));
   }, []);
   const addToCart = (product) => {
-    console.log(product);
-    const newCart = [...cart, product];
-    setCart(newCart);
+    let newCart = [];
+    if (cart.length < 4) {
+      newCart = [...cart, product];
+      setCart(newCart);
+    } else {
+      alert("Sorry!You can't add more than 4 products");
+    }
+  };
+  const chooseOne = (cartItems) => {
+    const randomNum = Math.floor(Math.random() * 4);
+    if (cartItems[randomNum]) {
+      alert(cartItems[randomNum].name);
+    }
   };
   return (
     <div className="store-container my-5">
@@ -27,9 +37,21 @@ const Store = () => {
         <h3>Order Summary</h3>
         <div>
           {cart.map((cartItem) => (
-            <Cart cartItem={cartItem}></Cart>
+            <Cart key={cartItem.id} cartItem={cartItem}></Cart>
           ))}
         </div>
+        <button
+          type="button"
+          className="btn btn-outline-secondary"
+          onClick={() => chooseOne(cart)}
+        >
+          Choose the best
+        </button>
+        <br />
+        <br />
+        <button type="button" className="btn btn-outline-danger">
+          Remove all
+        </button>
       </div>
     </div>
   );
