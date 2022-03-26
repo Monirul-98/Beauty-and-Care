@@ -11,14 +11,17 @@ const Store = () => {
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);
+  let newCart = [];
   const addToCart = (product) => {
-    let newCart = [];
     if (cart.length < 4) {
       newCart = [...cart, product];
       setCart(newCart);
     } else {
       alert("Sorry!You can't add more than 4 products");
     }
+  };
+  const removeAll = () => {
+    setCart([]);
   };
   const chooseOne = (cartItems) => {
     const randomNum = Math.floor(Math.random() * 4);
@@ -49,7 +52,11 @@ const Store = () => {
         </button>
         <br />
         <br />
-        <button type="button" className="btn btn-outline-danger">
+        <button
+          type="button"
+          className="btn btn-outline-danger"
+          onClick={removeAll}
+        >
           Remove all
         </button>
       </div>

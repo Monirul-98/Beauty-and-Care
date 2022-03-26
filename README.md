@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Beauty and Care
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Beauty and Care](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
