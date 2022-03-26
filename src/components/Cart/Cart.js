@@ -2,13 +2,15 @@ import React from "react";
 import "./Cart.css";
 
 const Cart = ({ cart }) => {
-  console.log(cart);
-  const { name } = cart;
+  const productNames = [];
+  for (const product of cart) {
+    productNames.push(product.name);
+  }
   return (
     <div className="cart">
-      <h1>Cart Summary</h1>
+      <h3>Order Summary</h3>
       <div>
-        <h4>{name}</h4>
+        <h4>{productNames}</h4>
       </div>
     </div>
   );
